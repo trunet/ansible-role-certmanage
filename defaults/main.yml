@@ -14,5 +14,6 @@ certmanage_stable_os:
 certmanage_certificates:
   - name: example_certificate
     cert: |
-      FOO
-      BAR
+      -----BEGIN CERTIFICATE-----
+      [ ... ]
+      -----END CERTIFICATE-----
