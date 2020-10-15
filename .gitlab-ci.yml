@@ -1,6 +1,6 @@
 ---
 variables:
-  GITHUB_REPO: "git@github.com:thorian93/ansible-role-common.git"
+  GITHUB_REPO: "git@github.com:thorian93/ansible-role-certmanage.git"
 
 stages:
   - cleanup
