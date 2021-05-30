@@ -1,14 +1,16 @@
 ---
 galaxy_info:
-  author: Thorian93
-  description: Ansible Role Certmanage
-  license: "license (MIT)"
-
+  role_name: certmanage
+  author: thorian93
+  description: Local Certificate Store Management
   min_ansible_version: 2.9
 
   galaxy_tags:
     - linux
     - server
+    - cert
+    - pki
+    - ca
     - certificate
     - system
     - encryption
