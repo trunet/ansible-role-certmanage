@@ -3,6 +3,8 @@ galaxy_info:
   role_name: certmanage
   author: thorian93
   description: Local Certificate Store Management
+  license: "license (MIT)"
+
   min_ansible_version: 2.9
 
   galaxy_tags:
