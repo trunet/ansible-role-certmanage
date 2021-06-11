@@ -1,6 +1,6 @@
 # Ansible Role: Certmanage
 
-This role installs custom CA certificates on RHEL/CentOS, Debian/Ubuntu and Fedora servers.
+This role installs custom CA certificates on Debian/Ubuntu, RHEL/CentOS and Fedora servers.
 
 [![Ansible Role: Certmanage](https://img.shields.io/ansible/role/55130?style=flat-square)](https://galaxy.ansible.com/thorian93/certmanage)
 [![Ansible Role: Certmanage](https://img.shields.io/ansible/quality/55130?style=flat-square)](https://galaxy.ansible.com/thorian93/certmanage)
@@ -16,7 +16,7 @@ No special requirements; note that this role requires root access, so either run
 
     - hosts: foobar
       roles:
-        - role: ansible-role-certmanage
+        - role: thorian93.certmanage
           become: yes
 
 ## Role Variables
