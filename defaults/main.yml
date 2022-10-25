@@ -1,5 +1,7 @@
 ---
 certmanage_stable_os:
+  - AlmaLinux 8
+  - AlmaLinux 9
   - CentOS 7
   - CentOS 8
   - Debian 9
